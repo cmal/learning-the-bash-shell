@@ -7,7 +7,7 @@ for (( i=0; i < numvalues; i++ )); do
     lowest=$i
 
     for (( j=i; j < numvalues; j++)); do
-        if [ ${values[j]} -le ${values[$lowest]} ]; then
+        if [ ${values[j]} -le ${values[lowest]} ]; then
             lowest=$j
         fi
     done
