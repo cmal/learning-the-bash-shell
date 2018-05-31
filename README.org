@@ -1,0 +1,3 @@
+* What is this?
+
+Some of the scripts in << Learning the Bash Shell >>.
