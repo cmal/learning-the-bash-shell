@@ -29,6 +29,6 @@ for i in "${!array[@]}"; do
 done
 
 echo "-- show values again ---"
-for i in "${array[@]}"; do
+for i in "${!array[@]}"; do
     echo "${array[$i]}"
 done
